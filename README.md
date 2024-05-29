@@ -1,7 +1,7 @@
 # Tennis-Analyzer
 
 # Introduction
-  This project analyzes Tennis players in a video to measure their speed, ball shot speed and number of shots. This project will detect players and the tennis ball using YOLO and also utilizes CNNs to extract court keypoints.
+  This project analyzes Tennis players in a video to measure their speed, ball shot speed and number of shots. This project will detect and track  the  players, tennis ball using YOLO and also utilizes CNNs to extract court keypoints.
 
 
 # Output Videos
