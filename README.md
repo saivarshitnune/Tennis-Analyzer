@@ -5,7 +5,9 @@
 
 
 # Output Videos
-Here is a screenshot from one of the output videos:
+Here is a screenshot from one of the frame of output video:
+![image](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/a52943ab-0e31-4130-83ac-223cc4f1ed00)
+
 
 # Models Used
 1) YOLO v8 for player detection
