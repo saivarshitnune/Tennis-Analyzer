@@ -3,6 +3,15 @@
 # Introduction
   This project analyzes Tennis players in a video to measure their speed, ball shot speed and number of shots. This project will detect and track  the  players, tennis ball using YOLO and also utilizes CNNs to extract court keypoints.
 
+# Approach : 
+Detect , track and calculate player speed , ball shot speed and number of shots in a rally. 
+Upload rally gif file.
+
+# limitations :
+
+# Work around :
+
+# Solution : 
 
 # Output Videos
 Here is a screenshot from one of the frame of output video:
