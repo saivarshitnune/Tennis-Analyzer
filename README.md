@@ -3,7 +3,8 @@
 
  In the competitive world of tennis, precise performance metrics such as player speed, ball shot speed, and shot count are crucial for training and improvement. Currently, coaches and analysts manually track these metrics, which is time-consuming and prone to errors. Automating this process using video analysis could provide accurate and real-time data, enhancing training efficiency and player performance.
 
-![tenor](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/73a8b6e0-447b-49c8-a8f9-22ea12ea4795)
+
+![8skofx](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/64e217b6-2cf1-4396-b03c-ebe45c71d507)
 
 
 # Approach : 
@@ -30,6 +31,22 @@
 
 # Solution : 
   1. Train the Tennis court key points using CNN (ResNet50) and load the best weights to extract court key points , court line detector.
+
+     ![8skomq](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/175d07aa-71ae-4ce2-9eef-52a6c61ccb23)
+
+
+  2. As we have got court key points now detect and track the players using YOLOV8. Post completion of detection and tracking the players we need 
+     to filter the players finding minimum distance between players and keypoints. Finally we can sort the distances and filter the players who 
+     are actually playing in the court. 
+
+     ![Screenshot (166)](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/a700b86a-464e-4e9d-aaf9-00d83822d247)
+
+ 3. Train the tennis balls with YOLO V5 model and load the best weights to detect and track the tennis ball accurately in each frame in our input 
+    video and also need to interpolate the missing ball positions by converting the ball positions into a dataframe.
+
+    
+
+ 5. 
      
 # Output Videos
 Here is a screenshot from one of the frame of output video:
