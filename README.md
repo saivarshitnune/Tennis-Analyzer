@@ -60,8 +60,8 @@ Here is a screenshot from one of the frame of output video:
 
 
 # Models Used
-1) YOLO v8 for player detection
-2) Fine Tuned YOLO v5 for tennis ball detection
+1) YOLOV8 for player detection
+2) Fine Tuned YOLOV5 for tennis ball detection
 3) Court Key point extraction using ResNet50 Pretrained model
 
 
