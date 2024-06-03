@@ -43,12 +43,18 @@
 
  3. Train the tennis balls with YOLO V5 model and load the best weights to detect and track the tennis ball accurately in each frame in our input 
     video and also need to interpolate the missing ball positions by converting the ball positions into a dataframe.
-
     
+    ![Screenshot (168)](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/75ebfabc-2934-4a4a-bb53-3bcbfa18b66c)
 
- 5. 
-     
-# Output Videos
+
+ 5. Create a function to draw the mini court in order to find the speed of the ball and players in each frame by extracting the positions of ball and players.
+
+    ![Screenshot (169)](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/8c3bc82d-1e98-4d8b-b549-66dcf1ec9036)
+
+ 6. Define player statistics data and ball detection shots to find the players averge shot speed , players total shot speed and no of shots by 
+    each player.
+    
+# Output 
 Here is a screenshot from one of the frame of output video:
 ![image](https://github.com/saivarshitnune/Tennis-Analyzer/assets/121888709/a52943ab-0e31-4130-83ac-223cc4f1ed00)
 
@@ -58,10 +64,6 @@ Here is a screenshot from one of the frame of output video:
 2) Fine Tuned YOLO v5 for tennis ball detection
 3) Court Key point extraction using ResNet50 Pretrained model
 
-# Requirements
-1) python3.8
-2) ultralytics
-3) pytroch
-4) pandas
-5) numpy
- 6) opencv
+
+# Conclusion:-
+ The project demonstrates a significant step forward in the realm of sports analytics, showcasing the potential of AI to transform how performance data is captured and analyzed. By automating these processes, coaches and analysts can focus more on strategy and improvement rather than on time-consuming manual tracking. This not only increases accuracy but also allows for real-time insights, paving the way for more effective training regimens and better player development.
